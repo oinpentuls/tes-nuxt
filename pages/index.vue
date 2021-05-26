@@ -1,41 +1,5 @@
 <template>
-  <div>
-    <nav class="flex justify-center fixed z-10 bg-white">
-      <div class="nav">
-        <img
-          class="py-2"
-          src="~/assets/ibunda.png"
-          width="120"
-          alt="logo ibunda"
-        />
-      </div>
-    </nav>
-    <section class="w-full flex justify-center">
-      <div class="flex justify-center">
-        <div class="min-width">
-          <img
-            class="pt-12"
-            src="~/assets/mental_health.png"
-            alt="mental health"
-            width="420"
-          />
-          <div class="head text-gray-800">
-            <h1 class="font-bold text-2xl">Mental Health Test</h1>
-          </div>
-          <p class="font-bold text-sm mt-2 text-gray-500">
-            Mental Health Test membantu kamu mengetahui keyakinan dirimu dalam
-            menghadapi situasi untuk berhasil mencapai hasil yang kamu inginkan.
-          </p>
-
-          <div class="w-full flex justify-center py-12">
-            <button class="bg-blue-100 py-4 px-20 btn-start rounded">
-              Mulai
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+  <MentalTest />
 </template>
 
 <script>
@@ -70,13 +34,6 @@ section {
 .min-width {
   min-width: 480px;
   width: 480px;
-  padding: 0 1rem;
-}
-
-.btn-start {
-  background: #2b80a3;
-  color: white;
-  text-align: center;
-  font-weight: bold;
+  /* padding: 0 1rem; */
 }
 </style>
